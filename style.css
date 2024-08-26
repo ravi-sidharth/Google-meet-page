@@ -12,7 +12,6 @@ body {
 
 .main-container {
     min-width: 1850px;
-    border: 3px solid red;
     background-color: #202125;
     width: 100vw;
     height: 100vh;
@@ -64,7 +63,44 @@ body {
     border-radius: .5rem;
     background-color: #3C4043;
     border: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
+
+.square img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.mic-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+    padding: .5rem;
+    color: white;
+    
+}
+.mic-icon i {
+    padding: .5rem;
+    background-color: #465662c8;
+    border-radius: 1rem;
+}
+.name {
+    padding: 3.8rem 0 0 1rem;
+    color: white;
+    list-style-type: none;
+    
+}
+
+.image-icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .left-row-2 {
     width: 100%;
     display: flex;
@@ -79,6 +115,19 @@ body {
     border-radius: .5rem;
     background-color: #3C4043;
     border: none;
+}
+
+.rectangle img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.rectangle .image-icon {
+    margin-top: -1.5rem;
+}
+
+.rectangle .name  {
+    margin-top: -1rem
 }
 
 .icon-sticker {
@@ -113,4 +162,33 @@ body {
     color: white;
     font-size: .8rem;
     text-decoration: none;
+}
+
+.right-container .row1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.8rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.right-container .row2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(71, 69, 66, 0.108);
+}
+
+.right-container .row3 {
+    width: 90%;
+    margin: 34.9rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    background-color: rgba(71, 69, 66, 0.109);
+    font-size: 1rem;
+    padding:1rem;
+    border-radius: 2rem;
 }
